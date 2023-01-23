@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1,
+h2,
+h3 {
+  font-family: "Node";
+  src: url("/public/fonts/Node/Node-Regular.ttf") format("truetype");
+  font-size: 4rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #000791;
+}
+
+body {
+  font-family: "Terrain";
+  src: url("/public/fonts/Terrain/Terrain-Regular.ttf") format("truetype");
+  margin: 1rem;
+  color: #2d3748;
+  align-content: center;
+  background-color: #f7fafc;
+  padding-left: 1rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 2.5rem;
+  text-align: justify;
+  padding-left: 1rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: justify;
+}
+
+input {
+  margin: 1rem;
+  color: black;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  border: 2px solid #e2e8f0;
+  border-radius: 0.25rem;
+  font-family: "Node Regular";
+  src: url("/fonts/Node/Node-Regular.ttf");
+}
